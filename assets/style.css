@@ -23,17 +23,19 @@ a{
     color: white;
     text-decoration: none;
     margin: 4px;
+
 }
 
-ul{
+.nav ul{
     display: flex;
     list-style-type: none;
 }
 
-li{
+.nav li{
     padding: 10px;
     margin-right: 6px;
 }
+
 
 #btn_nav{
     background-color: #2dc86c;
@@ -44,10 +46,11 @@ li{
 
 .banner{
     color: white;
-    background-image:url(img/background.jpg);
+    background-image:url(img/o-que-nao-fazer-na-hospedagem-de-site.jpg);
+    background-position: center;
     height: 600px;
     background-size: cover;
-    opacity: 95%;
+    opacity: 94%;
 }
 
 .text{
@@ -66,5 +69,92 @@ h1{
 }
 
 h1, .text p{ 
-    text-shadow: 1px 1px 1px black ;
+    text-shadow: 2px 2px 2px black ;
+    font-weight: bolder;
+    margin: auto;
+}
+
+/* MAIN SERVIÇOS */
+
+#servicos ul{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    list-style-type: none;
+}
+
+#servicos ul li{
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 10px
+}
+
+.fa-shield-alt{
+    color: #2cc76a;
+}
+
+.fa-rocket{
+    color: #ef3f29;
+}
+
+.fa-comments{
+    color:#ef8f29
+}
+
+#servicos p{
+    line-height: 24px;
+}
+
+/* MAIN PLANOS */
+
+.planosPrecos{
+    margin: auto;
+}
+
+.planosPrecos h2{
+    font-size: 36px;
+}
+
+.planosPrecos h2, .planosPrecos p{
+    text-align: center;
+}
+
+.planos-container{
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    margin: 60px 50px 0px 50px;
+}
+
+.planos{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 275px;
+}
+
+.planos li{
+    list-style-type: none;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.498);
+}
+
+ .preco-plano{
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+
+}
+
+#p15,#p30
+,#p50, #p100{
+    background-color:#2DC86C;
+    margin-left: 4px;
+    
 }
