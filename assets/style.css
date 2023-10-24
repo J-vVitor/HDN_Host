@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container_nav{
+.container_nav {
     background-color: #242932;
     padding: 10px;
 }
 
-nav{
+nav {
     display: flex;
     text-align: right;
     flex-direction: row-reverse;
@@ -19,142 +19,363 @@ nav{
     font-size: 20px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     margin: 4px;
 
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     list-style-type: none;
 }
 
-.nav li{
+.nav li {
     padding: 10px;
     margin-right: 6px;
 }
 
 
-#btn_nav{
+#btn_nav {
     background-color: #2dc86c;
     border-radius: 6px;
 }
 
 /* MAIN */
 
-.banner{
+.banner {
     color: white;
-    background-image:url(img/o-que-nao-fazer-na-hospedagem-de-site.jpg);
+    background-image: url(img/o-que-nao-fazer-na-hospedagem-de-site.jpg);
     background-position: center;
     height: 600px;
     background-size: cover;
     opacity: 94%;
 }
 
-.text{
+.text {
     position: relative;
     top: 200px;
     left: 600px;
     width: 800px;
 }
 
-h1{
+h1 {
     font-size: 6em;
 }
 
-.text p{
+.text p {
     font-size: 20px;
 }
 
-h1, .text p{ 
-    text-shadow: 2px 2px 2px black ;
+h1,
+.text p {
+    text-shadow: 2px 2px 2px black;
     font-weight: bolder;
     margin: auto;
 }
 
 /* MAIN SERVIÇOS */
 
-#servicos ul{
+#servicos ul {
     width: 90%;
     margin: 50px auto;
     display: flex;
     list-style-type: none;
 }
 
-#servicos ul li{
+#servicos ul li {
     text-align: center;
     padding: 20px;
 }
 
-.fas{
+.fas {
     font-size: 60px;
     margin-bottom: 10px
 }
 
-.fa-shield-alt{
+.fa-shield-alt {
     color: #2cc76a;
 }
 
-.fa-rocket{
+.fa-rocket {
     color: #ef3f29;
 }
 
-.fa-comments{
-    color:#ef8f29
+.fa-comments {
+    color: #ef8f29
 }
 
-#servicos p{
+#servicos p {
     line-height: 24px;
 }
 
 /* MAIN PLANOS */
 
-.planosPrecos{
+.planosPrecos {
     margin: auto;
 }
 
-.planosPrecos h2{
+.planosPrecos h2 {
     font-size: 36px;
 }
 
-.planosPrecos h2, .planosPrecos p{
+.planosPrecos h2,
+.planosPrecos p {
     text-align: center;
 }
 
-.planos-container{
+.planos-container {
     display: flex;
     padding: 10px;
-    width: 90%;
-    margin: 60px 50px 0px 50px;
+    width: 80%;
+    margin: 60px 50px 0px 140px;
 }
 
-.planos{
+.planos {
     display: flex;
-    padding: 20px;
+    padding: 4px;
     justify-content: space-between;
     margin: auto;
     max-width: 275px;
 }
 
-.planos li{
+.planos li {
     list-style-type: none;
-    line-height: 60px;
+    line-height: 40px;
     text-align: center;
     background-color: rgba(211, 211, 211, 0.498);
+    padding: 14px;
 }
 
- .preco-plano{
-    border-radius: 50px;
-    width: 120px;
-    height: 120px;
+.planos .preco-plano {
+    width: 90px;
+    height: 40px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #2DC86C;
+    color: white;
+    margin-left: 24px;
+    font-size: 20px;
+}
+
+
+
+#btn-sm1,
+#btn-sm2,
+#btn-sm3,
+#btn-sm4 {
+    background-color: #2DC86C;
+    color: white;
+    text-transform: uppercase;
+}
+
+.planos .nivel-plano {
+    background-color: rgb(2, 5, 36);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 18px;
 
 }
 
-#p15,#p30
-,#p50, #p100{
-    background-color:#2DC86C;
-    margin-left: 4px;
-    
+/* DOMINIO */
+
+.dominio {
+    background-color: #354550;
+    color: white;
+    padding: 10px;
+}
+
+.dominio h2 {
+    font-size: 40px;
+}
+
+.dominio-d {
+    margin: 60px auto;
+    width: 900px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dominio input[type="text"] {
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dominio button {
+    display: block;
+    position: relative;
+    left: 400px;
+    top: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #2DC86C;
+    color: white;
+    opacity: 0.8;
+}
+
+.dominio button:hover {
+    opacity: 1;
+}
+
+/* CONTATO */
+
+.div-contato {
+    width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.div-contato h2 {
+    font-size: 30px;
+}
+
+.div-contato input {
+    height: 30px;
+    margin: 40px 0px 30px 0px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div-contato button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2DC86C;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer p {
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bolder;
+    color: rgb(52, 51, 51);
+}
+
+@media screen and (max-width: 320px) {
+
+    body{
+        width: 99vw;
+    }
+    nav {
+        text-align: center;
+        flex-direction: row;
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .nav li {
+        padding: 4px;
+        margin-right: 0px;
+    }
+
+    /*MAIN */
+
+    .banner{
+        height: 300px;
+        opacity: 91%;
+    }
+
+    .text{
+        position: initial;
+        width: 200px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .text h1{
+        font-size: 3em;
+        margin-left: 40px;
+    }
+
+    .text p{
+        font-size: 11px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* SERVIÇOS */
+
+    #servicos ul{
+        display: block;
+    }
+
+    /* PLANOS PREÇOS */
+
+    .planos-container{
+        display: block;
+        margin: 40px 0px 0px 46px;
+    }
+
+    .planos{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* DOMÍNIO */
+
+    .dominio-d{
+        width: 260px;
+    }
+
+    .dominio h2{
+        font-size: 24px;
+    }
+
+    .dominio input[type="text"]{
+        width: 200px;
+        height: 30px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .dominio button{
+        left: 58px;
+        top: 20px;
+        padding: 6px;
+    }
+
+    /* CONTATO */
+
+    .div-contato{
+        width: 280px;
+    }
+
+    .div-contato input{
+        margin: 10px 0px 20px 0px;;
+    }
+
+    textarea{
+        width: 250px;
+    }
+
+    /* FOOTER */
+
+    footer p{
+        width: 200px;
+    }
 }
