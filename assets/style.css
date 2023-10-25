@@ -280,14 +280,24 @@ footer p {
 
 @media screen and (max-width: 320px) {
 
+    *{
+        overflow-x: hidden;
+    }
+
     body{
         width: 99vw;
-       overflow-x: hidden;
+        overflow-x: hidden;
+       
     }
 
     a{
         margin: 10px ;
     }
+
+    .container_nav{
+        width: 300px;
+    }
+    
     nav {
         text-align: center;
         flex-direction: row;
@@ -305,7 +315,6 @@ footer p {
     .banner{
         height: 300px;
         opacity: 91%;
-        width: 316px;
 
     }
 
@@ -333,10 +342,14 @@ footer p {
 
     #servicos ul{
         display: block;
-        margin-left:60px ;
+        margin-left:40px ;
     }
 
     /* PLANOS PREÇOS */
+
+    .planosPrecos{
+        width: 270px;
+    }
 
     .planosPrecos h2, .planosPrecos p{
 
@@ -345,7 +358,7 @@ footer p {
 
     .planos-container{
         display: block;
-        margin: 40px 0px 0px 60px;
+        margin: 40px 0px 0px 40px;
         width: 180px;
         
     }
@@ -353,11 +366,15 @@ footer p {
     .planos{
         margin-top: 10px;
         margin-bottom: 10px;
+        
     }
 
     /* SERVIÇOS */
     #servicos{
         width: 260px;
+        margin: 0px;
+        text-align: center;
+        
     }
 
     /* planos preço */
@@ -367,24 +384,29 @@ footer p {
         width: 240px;
         padding: 8px;
         font-size: 2em;
+        
     }
 
     .planosPrecos p{
         width: 260px;
+        
     }
 
     /* DOMÍNIO */
 
     .dominio{
-        width: 300px;
+        width: 274px;
+
     }
 
     .dominio h2, .dominio p{
         margin: auto;
+        
     }
 
     .dominio-d{
         width: 260px;
+        
     }
 
     .dominio h2{
@@ -396,6 +418,7 @@ footer p {
     .dominio p{
        margin-top: 4px;
         width: 210px;
+        
     }
 
     .dominio input[type="text"]{
@@ -404,32 +427,34 @@ footer p {
         padding: 8px;
         font-size: 14px;
         margin-right: 4px;
+        
     }
 
     .dominio button{
         left: 60px;
         top: 20px;
         padding: 6px;
+        
     }
 
     /* CONTATO */
 
     .div-contato{
-        width: 296px;
+        
+        width: 270px;
         margin-left: 0px;
     }
 
     .div-contato h2{
         font-size: 30px;
+        
     }
 
 
     .div-contato p{
         font-size: 16px;
-        width: 280px;
+        width: 260px;
         margin: 8px auto;
-
-
     }
 
     .div-contato input{
@@ -441,11 +466,12 @@ footer p {
 
     textarea{
         width: 250px;
+        margin: 9px;
+        
     }
 
     /* FOOTER */
 
     footer p{
-        width: 180px;
-    }
+        width: 140px;    }
 }
