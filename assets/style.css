@@ -462,3 +462,47 @@ footer p {
     footer p{
         width: 140px;    }
 }
+
+@media screen and (min-width: 425px) and (max-width: 600px) {
+
+    .text{
+        left:500px;
+    }
+    .container_nav{
+        width: 1370px;
+    }
+
+    div.banner{
+        width: 1390px;
+    }
+
+    /* SERVIÇOS */
+
+    section#servicos{
+        width: 1370px;
+        font-size: 22px;
+    }
+
+    /* PLANOS E SERVIÇOS */
+
+    .planosPrecos{
+        width: 1370px;
+    }
+
+    /* DOMINIO */
+
+    section.dominio{
+        width: 1370px;
+    }
+
+    /* CONTATO */
+
+    .contato-container{
+        width: 1370px;
+        font-size: 20px;
+    }
+
+    footer{
+        width: 1370px;
+    }
+}
