@@ -463,7 +463,7 @@ footer p {
         width: 140px;    }
 }
 
-@media screen and (min-width: 425px) and (max-width: 600px) {
+@media screen and (min-width: 425px) and (max-width: 1024px) {
 
     .text{
         left:500px;
